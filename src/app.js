@@ -26,6 +26,11 @@ app.post('/form_receiver', function(req, res){
 
 });
 
+app.get('/teamtab', function(req, res){
+    res.render('tab');
+});
+
+
 app.get('/', function(req, res){
     res.send('Hello world');
 });
